@@ -22845,10 +22845,11 @@ this.b=b},
 agS:function agS(a,b){this.a=a
 this.b=b},
 o9:function o9(a){this.a=a},
-Wo:function Wo(a){var _=this
+Wo:function Wo(a,b){var _=this
 _.d=0
+_.e=a
 _.a=null
-_.b=a
+_.b=b
 _.c=null},
 aiG:function aiG(a){this.a=a},
 aiH:function aiH(a){this.a=a},
@@ -72040,12 +72041,11 @@ A.agS.prototype={
 $0(){A.a4W(this.a,new A.ez(this.b,null))},
 $S:0}
 A.o9.prototype={
-aq(){return new A.Wo(B.m)}}
+aq(){return new A.Wo(A.a(["Pitlane","Paddock","Messagerie","Menu"],t.s),B.m)}}
 A.Wo.prototype={
 L(a){var s,r,q,p,o=this,n=null,m=A.ab(a).ax,l=m.k2
 m=l==null?m.c:l
-o.a.toString
-l=A.NN("Test Page",n,n,n,n,n,n)
+l=A.NN(o.e[o.d],n,n,n,n,n,n)
 s=t.E
 l=A.apF(A.a([A.amB(n,B.EE,n,new A.aiG(a),n,"Messages"),A.amB(n,B.EF,n,new A.aiH(a),n,"Notifications")],s),m,!0,l)
 m=A.ab(a).ax
